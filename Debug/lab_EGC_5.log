@@ -1,0 +1,30 @@
+﻿Build started 04.12.2015 12:10:50.
+     1>Project "C:\Users\Cristi\Dropbox\Facultate\Grafica (EG)\Grafica (EG)\Teme\Tema 2\lab5egc\lab_EGC_5.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         copy "C:\Users\Cristi\Dropbox\Facultate\Grafica (EG)\Grafica (EG)\Teme\Tema 2\lab5egc\dependente\freeglut\freeglut.dll" "C:\Users\Cristi\Dropbox\Facultate\Grafica (EG)\Grafica (EG)\Teme\Tema 2\lab5egc\Debug"
+         copy "C:\Users\Cristi\Dropbox\Facultate\Grafica (EG)\Grafica (EG)\Teme\Tema 2\lab5egc\dependente\glew\glew32.dll" "C:\Users\Cristi\Dropbox\Facultate\Grafica (EG)\Grafica (EG)\Teme\Tema 2\lab5egc\Debug"
+         
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\cristi\dropbox\facultate\grafica (eg)\grafica (eg)\teme\tema 2\lab5egc\main.cpp(174): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\cristi\dropbox\facultate\grafica (eg)\grafica (eg)\teme\tema 2\lab5egc\main.cpp(316): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\cristi\dropbox\facultate\grafica (eg)\grafica (eg)\teme\tema 2\lab5egc\main.cpp(488): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\cristi\dropbox\facultate\grafica (eg)\grafica (eg)\teme\tema 2\lab5egc\main.cpp(506): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\cristi\dropbox\facultate\grafica (eg)\grafica (eg)\teme\tema 2\lab5egc\main.cpp(643): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\cristi\dropbox\facultate\grafica (eg)\grafica (eg)\teme\tema 2\lab5egc\main.cpp(652): warning C4244: 'argument' : conversion from 'double' to 'GLsizei', possible loss of data
+     1>c:\users\cristi\dropbox\facultate\grafica (eg)\grafica (eg)\teme\tema 2\lab5egc\main.cpp(652): warning C4244: 'argument' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\cristi\dropbox\facultate\grafica (eg)\grafica (eg)\teme\tema 2\lab5egc\main.cpp(653): warning C4244: 'argument' : conversion from 'double' to 'GLsizei', possible loss of data
+     1>c:\users\cristi\dropbox\facultate\grafica (eg)\grafica (eg)\teme\tema 2\lab5egc\main.cpp(653): warning C4244: 'argument' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\cristi\dropbox\facultate\grafica (eg)\grafica (eg)\teme\tema 2\lab5egc\main.cpp(655): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\Tema2.exe" /INCREMENTAL /NOLOGO /LIBPATH:dependente\freeglut /LIBPATH:dependente\glew opengl32.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\Tema2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\Tema2.lib" /MACHINE:X86 Debug\main.obj
+         lab_EGC_5.vcxproj -> C:\Users\Cristi\Dropbox\Facultate\Grafica (EG)\Grafica (EG)\Teme\Tema 2\lab5egc\Debug\Tema2.exe
+     1>Done Building Project "C:\Users\Cristi\Dropbox\Facultate\Grafica (EG)\Grafica (EG)\Teme\Tema 2\lab5egc\lab_EGC_5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.53
